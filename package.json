@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "workspaces": [
+    "foo/*/*"
+  ],
+  "scripts": {
+    "build": "lerna run build",
+    "test": "lerna run test",
+    "postinstall": "patch-package"
+  },
+  "devDependencies": {
+    "lerna": "^3.15.0",
+    "patch-package": "^6.1.2",
+    "postinstall-postinstall": "^2.0.0"
+  }
+}

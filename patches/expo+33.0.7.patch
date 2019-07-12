@@ -1,0 +1,9 @@
+diff --git a/node_modules/expo/build/Expo.d.ts b/node_modules/expo/build/Expo.d.ts
+index e2edde9..f0f9f76 100644
+--- a/node_modules/expo/build/Expo.d.ts
++++ b/node_modules/expo/build/Expo.d.ts
+@@ -23,4 +23,3 @@ export { default as Linking } from './Linking/Linking';
+ export { default as Notifications } from './Notifications/Notifications';
+ export { default as Pedometer } from './Pedometer';
+ export { default as registerRootComponent } from './launch/registerRootComponent';
+-export { Accelerometer, AdMobBanner, AdMobInterstitial, AdMobRewarded, Animated, Amplitude, AppAuth, Asset, Audio, BackgroundFetch, BarCodeScanner, Barometer, BlurView, Brightness, Calendar, Camera, Constants, Contacts, Crypto, DocumentPicker, Easing, Facebook, FacebookAds, FaceDetector, FileSystem, Font, GestureHandler, GL, GLView, GoogleSignIn, Gyroscope, Haptic, Haptics, Icon, ImageManipulator, ImagePicker, IntentLauncher, IntentLauncherAndroid, KeepAwake, LinearGradient, LocalAuthentication, Localization, Location, Magnetometer, MagnetometerUncalibrated, MailComposer, MapView, MediaLibrary, Permissions, Print, PublisherBanner, Random, SecureStore, Segment, Sensors, Sharing, SMS, Speech, SQLite, Svg, takeSnapshotAsync, TaskManager, Transition, Transitioning, Video, WebBrowser, WebView, } from './deprecated';
